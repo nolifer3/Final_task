@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+section{
+    border: black 2px solid;
+    height: 100vh;
+    width: 100proc;    
+}
+.header{
+width: 100%;
+height: 15%;
+background-color: lightgray;
+display: flex;
+justify-content: center;
+z-index: 5;
+}
+.squareContainer{
+    width: 100%;
+    height: 250px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+#square{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+.button1{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#btn1 {
+    border:green 1px solid;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: green;
+    color: greenyellow;
+    font-size: 20px;
+    cursor: pointer;        
+}
+.hidden{
+    display: none;
+}
+/* task4 */
+.container4{
+    margin-top: 5px;
+    width: 100%;
+    height: 85%;    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+.colorSquareSize{
+    width: 30%;
+    height: 30%;
+    background-color: black;
+}
+/* task5 */
+.tableInput{
+    width: 100%;
+    height: 10%;
+}
+
+
+.tableContainer{
+ width: 100%;
+ height: 75%; 
+}
+table{
+    width: 80%;
+    margin: 10px auto;
+}
+table, th , td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* task3 */
+.task3{
+    position: relative;
+}
+
+
+.menu {
+    width: 10%;
+    height: 82%;
+    background-color: rgba(197, 241, 183, 0.794);
+    margin-left: -25%;
+    transition: 0.8s ease-in-out;    
+    overflow: hidden;
+}
+
+.menuShow {
+    margin-left: 0;      
+    overflow: hidden;
+}
+.burger {
+    width: 40px;
+    height: 3%;   
+    border: 1px solid black;      
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.burger span {
+    width: 80%;
+    height: 1px;
+    background-color: black;
+    display: block;
+    margin: 7px auto;
+}
+ /* task2 */
+
+#referenceContainer{
+    width: 100%;
+    height: 65%;
+    border: 1px solid yellow;
+    display: flex;  
+    
+        
+}
+.controls{
+    width: 100%;
+    height: 20%;
+}
+#movingSquare{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+}
+    
+    

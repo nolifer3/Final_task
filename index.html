@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="task1">
+        <div class="header"><h2>Pirma užduotis</h2></div>
+        <div class="squareContainer">
+            <div id="square"></div>
+        </div>        
+        <div class="button1">
+            <input type="button" value="Hide/Show" id="btn1">
+        </div>        
+    </section>
+    <section class="task2">
+        <div class="header"><h2>Antra užduotis</h2></div>
+        <div id="referenceContainer">
+            <div id="movingSquare"></div>
+        </div>
+        <div class="controls">
+            <label for="newWidth">Plotis(tarp 25px ir 1000px)</label>
+            <input type="range" id="newWidth" min="25" max="1000">
+            <input type="button" value="Keisti" id="btn21">
+            <br>
+            <label for="newHeight">Aukštis(tarp 25px ir 400px)</label>
+            <input type="range" id="newHeight" min="25" max="400">
+            <input type="button" value="Keisti" id="btn22">
+            <br>
+            <label for="allignment">Centravimas:</label>
+            <input type="radio" id="left" name="allignment" value="left">
+            <label for="left">Left</label>
+            <input type="radio" id="center" name="allignment" value="center">
+            <label for="center">Center</label>
+            <input type="radio" id="right" name="allignment" value="right">
+            <label for="right">Right</label>
+            <input type="button" value="Keisti" id="btn23">
+            <br>
+            <!-- <label for="position">Pozicija:</label>
+            <input type="radio" id="top" name="position" value="flex-start">
+            <label for="top">Top</label>
+            <input type="radio" id="bottom" name="position" value="flex-end">
+            <label for="bottom">Bottom</label>
+            <input type="button" value="Keisti" id="btn24"> -->
+        </div>
+
+    </section>
+    <section class="task3">
+        <div class="header"><h2>Trečia užduotis</h2></div>
+        <div class="burger" id="burg">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>    
+        
+        <div class="menu" id="men">
+            <h3>Meniu</h3>
+        </div>
+    </section>
+    <section class="task4">
+        <div class="header"><h2>Ketvirta užduotis</h2></div>
+        <div class="container4">
+            <div id="colorSquare1" class="colorSquareSize"></div>
+            <div id="colorSquare2" class="colorSquareSize"></div>
+            <div id="colorSquare3" class="colorSquareSize"></div>
+            <div id="colorSquare4" class="colorSquareSize"></div>
+            <div id="colorSquare5" class="colorSquareSize"></div>
+            <div id="colorSquare6" class="colorSquareSize"></div>
+            <div id="colorSquare7" class="colorSquareSize"></div>
+            <div id="colorSquare8" class="colorSquareSize"></div>
+            <div id="colorSquare9" class="colorSquareSize"></div>
+        </div>
+
+    </section>
+    <section class="task5">
+        <div class="header"><h2>Penkta užduotis</h2></div>
+        <div class="tableInput">
+            <input type="text" placeholder="Vardas" id="firstName" onkeyup="checkInput(this)">
+            <input type="text" placeholder="Pavardė" id="lastName" onkeyup="checkInput(this)">
+            <input type="text" placeholder="Gimimo data(YYYY-MM-DD)" id="birthday" onkeyup="checkInput(this)">
+            <input type="button" value="Pridėti į sąrašą" id="btn5" disabled>
+        </div>
+        <div class="tableContainer">
+            <table id="table">
+                <tr>
+                    <th>Eil. nr</th>
+                    <th>Vardas</th>
+                    <th>Pavardė</th>
+                    <th>Amžius</th>
+                </tr>                
+            </table>
+        </div>
+    </section>
+    
+    <script src="jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
